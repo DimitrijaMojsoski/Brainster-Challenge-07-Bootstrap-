@@ -1,0 +1,23 @@
+body {
+  padding-top: 56px;
+}
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 92.2vh;
+  width: 100%;
+}
+
+.bg-blue-color {
+  background-color: blue;
+}
+
+@media (max-width: 576px) {
+  .col-10, .d-flex, .justify-content-center{
+    margin-top: 175px;
+    margin-bottom: 50px;
+  }
+}
